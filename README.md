@@ -2,6 +2,9 @@
 
 # TARO: Tree aggregated factor regression model for microbiome data analysis
 
+### Author: Aditya Mishra
+
+- **Reference**: Mishra AK, Mahmud I, Lorenzi PL, Jenq RR, Wargo JA, Ajami NJ, Peterson CB. (2024) TARO: tree-aggregated factor regression for microbiome data integration. *Bioinformatics*. 40(6): btae321. [https://doi.org/10.1093/bioinformatics/btae321](https://doi.org/10.1093/bioinformatics/btae321)
 
 We propose a Tree-Aggregated factor Regression mOdel (TARO) for integrating microbiome data with other high-dimensional data types, such as metabolomics. Technical limitations prevent us from obtaining the absolute count of the microbial species; hence the microbial-abundance profile of a sample is inherently compositional. In addition, microbial species are related by phylogeny. TARO treats the microbial abundance data as compositional data and suitably encodes the dependency among the ASV/OTUs through a phylogeny-inspired adjacency matrix.
 
